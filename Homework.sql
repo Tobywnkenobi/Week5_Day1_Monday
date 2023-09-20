@@ -85,7 +85,7 @@ HAVING count(rental_id) > 250;
 --10. Within the film table, how many rating categories are there? And what rating has the most
 --movies total?
 
-SELECT rating, film_id
+SELECT count(rating), rating
 FROM film
 
 --output: 
